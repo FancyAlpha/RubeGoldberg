@@ -22,7 +22,7 @@ div {
 .strip {
     background: #FF5000;
     position: fixed;
-    width: 10%;
+    width: 20px;
     height: 100%;
     float: left;
     box-shadow: 0 0 5px;
