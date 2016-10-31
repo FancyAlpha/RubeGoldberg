@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Oswald');
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+div {
+	float: left;
+	box-sizing: border-box;
+}
+
+.slide {
+    background: #3C3C3C;
+    width: 90%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 10px;
+}
+
+.strip {
+    background: #FF5000;
+    position: fixed;
+    width: 20px;
+    height: 100%;
+    float: left;
+    box-shadow: 0 0 5px;
+    z-index: 1;
+}
+
+.bar {
+	padding: 10% 10% 0 10%;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Bungee Hairline', cursive;
+	color: #FF5000;
+
+}
+
+p, li {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	clear: both;
+}
+
+ul.col-2 {
+    column-count: 2;
+}
+
+
+#line {
+	width: 100px;
+	height: 5px;
+	background: #FF5000;
+	clear: both;
+}
+
+
+.front {
+	height: 100%;
+	padding-left: 10%;
+}
+
+.front h1 {
+	font-size: 100px;
+}
+
+.front p {
+	color :#3C3C3C;
+	padding-top: 15px;
+}
+
+
+img {
+	height: auto;
+	width: 80%;
+	padding: 10%;
+}
+
+@media (min-width: 960px) {
+	img {
+		width: 40%;
+	}
+	
+	.bar {
+		width: 40%;
+		height: 100%;
+	}
+}
+
+::selection {
+	background: black;
+	color: white;
+}
